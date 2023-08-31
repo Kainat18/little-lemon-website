@@ -1,0 +1,546 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Navigation Bar styling */
+#navbar{
+  display:flex;
+  justify-content: center;
+  width:100%;
+  flex-wrap:wrap;
+}
+#logo {
+  display:flex;
+  justify-content: center;
+}
+
+#logo img{
+width:240px;
+
+}
+#navbar ul{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap:wrap;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a{
+  text-decoration: none ;
+  display:block;
+  padding:12px;
+  color: #495E57;
+  font-family: 'Karla' , serif;
+  font-weight: bold;
+}
+
+/*Stylings for call to action/hero section*/
+#hero-section {
+width: 100%;
+height: 465px; 
+background-color: #495E57;
+display:flex;
+justify-content: space-evenly;
+}
+
+.hero-description h1{
+font-size: 72px;
+font-style: normal;
+font-weight: 500;
+line-height: 72px;
+color:#F4CE14;
+font-family: 'Markazi Text' , serif;
+margin-bottom:10px; 
+}
+
+.hero-description h3{
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 8px;
+color: #FFF;
+font-family: 'Markazi Text' , serif;
+margin:0;
+padding-top:20px;
+}
+
+.hero-description p{
+width: 422px;
+height: 80px;
+color:  #FFF;
+font-family: 'Karla' , serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140.625%;
+padding: 15px 0px
+
+}
+.hero-description button{
+  margin:24px 0px;
+}
+.reserve a{
+  color:#333333;
+  text-decoration: none;
+}
+.hero-logo{
+display:flex;
+justify-content: center;
+align-items: center;
+margin-top:90px;
+}
+
+.hero-logo img{
+width:375px;
+height:450px;
+border-radius: 24px;
+
+}
+/*Menu styling*/
+#menu-section{
+  margin-top:50px;
+  width:100%;
+}
+.menu-description{
+  display:flex;
+  justify-content: center;
+  height:auto;
+  flex-wrap:wrap;
+  align-items: center;
+}
+.menu-description h1{
+font-family: 'Markazi Text' , serif;
+font-size: 50px;
+font-style: normal;
+font-weight: bolder;
+line-height: normal;
+width: 530px;
+}
+.menu-list{
+  display:flex;
+  justify-content: center;
+  margin-top:2em;
+  flex-wrap:wrap;
+}
+
+.special{
+width: 310px;
+height: auto;
+border-radius: 16px 16px 0px 0px;
+margin-left:1.5em;
+}
+.special img{
+  width:310px;
+  height:190px;
+  border-radius: 16px 16px 0px 0px;
+  margin-bottom: -0.8em;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.special-body{
+  padding:1.2em;
+  background-color: #f2efef;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.special-body h2{
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  font-family: 'Markazi Text' , sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 81%;
+  font-weight: 600;
+  }
+
+.special-body h5{
+ color: #EE9972;
+ font-family: 'Karla' , sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ font-size:20px;
+ margin-top:0;
+ margin-bottom:0;
+}
+
+.special-body p{
+  color: #495E57;
+  font-family: 'Karla' , sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height:1.5em;
+  height:120px;
+}
+
+/*Testimonals Styling*/
+#testimonials-section{
+  width:100%;
+  height:auto;
+  margin-top:50px;
+  margin-bottom:10px;
+  background-color:#495E57;
+  padding-top:2em;
+
+}
+#testimonials-section h1{
+  color: #F4CE14;
+  text-align: center;
+  font-family: 'Markazi Text' , serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top:20px;
+}
+.testimonials-list{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.testimonial{
+width: 280px;
+height:270px;
+border-style: none;
+margin:20px;
+background-color: #FFF;
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 15px;
+
+}
+.rating-img{
+ width: 200px;
+}
+.reviewers-img{
+  display:block;
+  width: 80px;
+  height:70px;
+  border-radius: 50%;
+  margin:auto;
+}
+.testimonial p{
+text-overflow: ellipsis;
+font-family: 'Karla' , sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+padding:0px 20px;
+}
+
+/*About Styling*/
+#about-section{
+display:flex;
+width:100%;
+height:auto;
+padding: 2em 0px;
+
+}
+.about-description{
+  margin-left: 5em;
+  margin-right: 5em;
+  width: 40%;
+
+}
+.about-description h4{
+font-family: 'Markazi Text' , serif;
+font-size: 72px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color:#F4CE14;
+margin:0;
+}
+.about-description h5{
+font-family: 'Markazi Text' , serif ;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+color:#333;
+margin:0;
+
+}
+.about-description p{
+text-align: justify;
+font-family: 'Karla' , serif;
+font-size: 19px;
+font-style: normal;
+line-height: 1.5em;
+margin-top:1em;
+}
+
+.about-image{
+  width:50%;
+}
+.imageA{
+  margin-left: 12em;
+  margin-top: 1em;
+  width: 50%;
+  height:60%;
+}
+
+.imageB{
+  margin-left: 2em;
+  margin-top: -10em;
+  width: 50%;
+  height:60%;
+}
+
+/*Booking Page styling*/
+.booking-form{
+  padding:30px;
+  background: url("restaurant.jpg") no-repeat center center/cover ;
+}
+.Form h2{
+  text-align: center;
+  font-family: "Markazi text" , serif;
+  font-size:40px;
+  color:#495E57;
+  font-weight: bold;
+}
+#occasion, #res-time , #res-date{
+  font-family: 'Karla' ,sans-serif;
+  font-size:18px;
+}
+.Form {
+    border-radius: 10px;
+    color: #333;
+    height: auto;
+    padding: 10px 40px 10px;
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+    background-color:#FFF;
+} 
+.Form .form-item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-item label{
+font-family: "Markazi text" , serif;
+font-size:25px;
+margin: 0 0 5px;
+}
+
+.form-item input , select{
+  padding:10px;
+  border: 1px solid rgba(51,51,51,.3);
+  border-radius: 5px;
+  font-family: 'Karla' ,sans-serif;
+  font-size:18px;
+}
+.form-item button{
+  background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+}
+.form-item button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color:black;
+  font-family: "Karla" , serif;
+  font-size:20px;
+}
+
+/*Confirmed Page styling*/
+.confirmation-message {
+  max-width: 500px;
+  background-color: #495e57;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  padding: 2rem;
+  text-align: center;
+  color:#FFF;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin:auto;
+  margin-top: 10rem;
+  margin-bottom:10rem;
+ 
+}
+
+.confirmation-message h3 {
+  font-size: 3rem;
+  margin-bottom: 10px ;
+  margin-top:0px;
+  font-family:"Markazi Text",serif;
+}
+
+.confirmation-message p {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-family:"Karla",sans-serif;
+}
+.btn{
+  margin-top:33px;
+}
+.btn a{
+  color:#333333;
+  text-decoration: none;
+}
+/*Footer styling */
+
+.footer-content{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  font-family: 'Karla', sans-serif;
+}
+
+.footer-logo{
+  display:flex;
+ align-items: center;
+}
+.footer-logo img{
+  width: 70px;
+  height:110px;
+}
+
+
+.footer-links ul,
+.footer-contact ul,
+.footer-social ul {
+  list-style: none;
+  padding: 0;
+  line-height:26px;
+  font-size:18px;
+
+}
+
+.footer-links a,
+.footer-contact a,
+.footer-social a {
+  text-decoration: none;
+  color:#495E57;
+}
+.headings{
+  color:#495E57;
+  font-size: 18px;
+}
+
+
+/*Primary classes*/
+.button-primary{
+  width: 204px;
+  height: 60px;
+  background-color:#F4CE14;
+  color:#333333;
+  border:none;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius:16px;
+  font-size:20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  }
+
+/*Media Queries for responsiveness*/
+@media screen and (max-width:800px){
+  #hero-section{
+    text-align: center;
+   height:auto;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   width:100%;
+}
+  .hero-description p{
+    text-align: center;
+    display:block;
+    margin:auto;
+    height:auto;
+    padding: 30px 0px;
+}
+
+/* .hero-logo{
+  margin-top:0;
+  margin-bottom:10px;
+}
+.hero-logo img {
+  justify-content: center;
+  width: 45%;
+  height:200px;
+  border-radius: 24px;
+} */
+.hero-logo img{
+  display:none;
+}
+#about-section{
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.about-description{
+  width:100%;
+  padding: 0px 20px;
+  margin:auto;
+}
+.about-image{
+width:100%;
+margin: auto;
+margin-left:40px;
+}
+.imageA{
+  margin-left: 9em;
+}
+
+
+}
+
+@media screen and (max-width:996px){
+.special{
+  padding-top:2em;
+  }
+  
+}
+
+@media screen and (max-width:732px){
+  .menu-description h1{
+    text-align: center;
+  }
+  .Form{
+    width:60%;
+  }
+}
+@media screen and (max-width:500px){
+  .footer-content{
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .footer-links,.footer-contact,.footer-social{
+      display: flex;
+      justify-content: center;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      text-align:center;
+  }
+}
